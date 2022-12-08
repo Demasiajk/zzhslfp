@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#zhusgeg").click(function () {
+               
+                $.ajax({
+                    url: 'services/slfp',
+                    data: {
+                        "date": 0,
+                        "adcd": 0,
+                        "systemTypes": 0,
+                        "stcdOrStnm": 0
+                    },
+                    success: function (result) {
+                        var data = result.data;
+                        var a = JSON.stringify(data);
+                        console.log(a);
+
+                        alert('成功');
+                    },
+                    error: function () {
+                        alert('失败')
+                    }
+                });
+            });
+            $("#rrerg").click(function () {
+               
+                $.ajax({
+                    url: 'services/slfp',
+                    data: {
+                        "date": 0,
+                        "adcd": 0,
+                        "systemTypes": 0,
+                        "stcdOrStnm": 0
+                    },
+                    success: function (result) {
+                        var data = result.data;
+                        alert('成功');
+                        console.log(data);
+                    },
+                    error: function () {
+                        alert('失败')
+                    }
+                })
+            });
+            $("#xsefueshi").click(function () {
+
+                $.ajax({
+                    url: 'services/slfp',
+                    data: {
+                        "date": 0,
+                        "adcd": 0,
+                        "systemTypes": 0,
+                        "stcdOrStnm": 0
+                    },
+                    success: function (result) {
+                        var data = result.data;
+                        alert('成功');
+                    },
+                    error: function () {
+                        alert('失败')
+                    }
+                })
+            });
+            $("#ysfee").click(function () {
+
+                $.ajax({
+                    url: 'services/slfp',
+                    data: {
+                        "date": 0,
+                        "adcd": 0,
+                        "systemTypes": 0,
+                        "stcdOrStnm": 0
+                    },
+                    success: function (result) {
+                        var data = result.data;
+                        alert('成功');
+                    },
+                    error: function () {
+                        alert('失败')
+                    }
+                })
+            });
+            $("#sflgo").click(function () {
+
+                $.ajax({
+                    url: 'services/slfp',
+                    data: {
+                        "date": 0,
+                        "adcd": 0,
+                        "systemTypes": 0,
+                        "stcdOrStnm": 0
+                    },
+                    success: function (result) {
+                        var data = result.data;
+                        alert('成功');
+                    },
+                    error: function () {
+                        alert('失败')
+                    }
+                })
+            });
+            $("#skss").click(function () {
+            
+                $.ajax({
+                    url: 'services/slfp',
+                    data: {
+                        "dateS": 0,
+                        "dateE": 0,
+                        "adcd": 0,
+                        "systemTypes": 0,
+                        "stcdOrStnm": 0
+                    },
+                    success: function (result) {
+                        var data = result.data;
+                        alert('成功');
+                    },
+                    error: function () {
+                        alert('失败')
+                    }
+                })
+            });
+
+
+    </script>
