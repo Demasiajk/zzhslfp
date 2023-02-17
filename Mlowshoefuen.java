@@ -16,3 +16,4 @@ public interface FlowShowMapper {
 	                         @Param("adcd") List<String> adcd,
 	                         @Param("systemTypes") List<String> systemTypes,
 	                         @Param("stcdOrStnm") List<String> stcdOrStnm);
+//https://121.46.6.206/ 	堡垒机	sljump	J^z18lj%Qgwc1
