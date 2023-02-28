@@ -24,3 +24,4 @@ public class ChaipApplication extends SpringBootServletInitializer {
 		return builder.sources(ChaipApplication.class);
 	}
 }
+//http://210.12.196.172 :8088  水利oa     admin	admin123
